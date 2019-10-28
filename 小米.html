@@ -1,0 +1,631 @@
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>小米官网</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+        body{
+            width: 100%;
+        }
+        #nav{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            margin: 0 auto;
+            
+        }
+        span{
+            display: flex;
+        }
+        #nav div{
+            width: 1500px;
+            margin: 0 auto;
+            /* background-color: aquamarine; */
+            height: 40px;
+            
+        }
+        #nav div span a{
+            color:seashell;
+            text-decoration: none;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* flex-direction: column; */
+            position: relative;
+            top: 10px;
+            /* justify-content:space-between; */
+        }
+        #nav div span a:hover{
+            color: aliceblue;
+        }
+        #er{
+            /* align-items:center; */
+            float: right;
+            /* display: block; */
+            position: relative;
+            top: -22px;
+            
+        }
+        #m2{
+            width: 1500px;
+            height: 80px;
+            margin: 0 auto;
+            background-color: white;
+            display: flex;
+        }
+        #m2 img{
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 15px;
+        }
+       #m3{
+           height:80px; 
+           /* display: flex; */
+           flex-direction: row;
+           justify-content: center;
+           align-items: center;
+       }
+       #m3 span:hover{
+           /* background-color: orange; */
+           color: orange;
+       }
+       #m3 a:hover{
+           /* background-color: orange; */
+           color: orange;
+       }
+       
+       .box{
+           position: relative;
+           top: -50px;
+           left: 400px;
+           color: black;
+       }
+       #m3 a{
+           text-decoration: none;
+       }
+       #z2{
+           width: 200px;
+           height: 40px;
+           border: 1px solid black;
+       }
+       
+       .z1{
+           position: relative;
+           right: -590px;
+           top: -50px;
+           color: black;
+       }
+       #s1{
+           width: 1500px;
+           height: 650px;
+           margin: 0 auto;
+           /* border: 1px solid red; */
+           position: relative;
+       }
+       #s2{
+           width: 300px;
+           height: 450px;
+           background-color: grey;
+                                         display: flex;
+                                         flex-direction:column;
+                                         justify-content:space-between;
+                                         align-items: baseline;
+       }
+       #s3{
+           width: 300px;
+           height: 200px;
+           background-color: lightgray;
+       }
+       #s4{
+           width: 1200px;
+           height: 450px;
+           background-color: brown;
+           position: absolute;
+           top: 0px;
+           left: 300px;
+           
+
+       }
+       #s4 img{
+           width: 1200px;
+           height: 450px;
+       }
+       #s5{
+           width: 1200px;
+           height: 200px;
+           background-color: green;
+           position: absolute;
+           left: 300px;
+           top: 450px;
+
+       }
+       #s6{
+           width: 400px;
+           height: 200px;
+           background-color: black;
+       }
+       #s6 img{
+           width: 400px;
+           height: 200px;
+       }
+       #s7{
+           width: 400px;
+           height: 200px;
+           background-color: red;
+           position: relative;
+           left: 400px;
+           top: -200px;
+       }
+       #s7 img{
+           width: 400px;
+           height: 200px;
+       }
+       #s8{
+           width: 400px;
+           height: 200px;
+           background-color: saddlebrown;
+           position: relative;
+           left: 800px;
+           top: -400px;
+       }
+       #s8 img{
+           width: 400px;
+           height: 200px;
+       }
+       #s9{
+           width:1200px;
+           height:100px;
+           background-color: blue;  
+           margin: 40px auto;
+       }
+       #s9 img{
+           width: 1200px;
+           height: 100px;
+       }
+       #j1{
+           width: 1500px;
+           height: 140px;
+           background-color: bisque;
+           margin: 10px auto;
+       }
+       #j1 a b{
+           color: red;
+           font-size: 20px;
+           position: relative;
+           top: -50px;
+           left: 110px;
+       }
+       #j2{
+        width: 1500px;
+           height: 140px;
+       }
+       #s2 a{
+           /* display: block; */
+           position: relative;
+        left:30px;
+        color: white;
+        height: 30px;
+        padding: 6px;
+       }
+       #s2 a:hover{
+           background-color: darkorange;
+           text-decoration: none;
+           width: 100%;
+       }
+      
+       #x1{
+           height: 100px;
+           width: 100px;
+           /* border: 1px solid green; */
+           font-size: 20px;  
+           /* position: relative;  */
+       }
+       #x2{
+           position: relative;
+           top: 39px;
+       }
+    
+       #x3{
+           widows: 100px;
+           height: 100px;
+           /* border: 1px solid red; */
+           position: relative;
+           left: 100px;
+       }
+     
+       #x4{
+           widows: 100px;
+           height: 100px;
+           /* border: 1px solid red; */
+           position: relative;
+           left: 200px;
+           top: -100px;
+       }
+       #x5{
+           widows: 100px;
+           height: 100px;
+           /* border: 1px solid red; */
+           position: relative;
+           top: -100px;
+       }
+       #x6{
+           widows: 100px;
+           height: 100px;
+           /* border: 1px solid red; */
+           position: relative;
+           top: -200px;
+           left: 100px;
+       }
+       #x7{
+           widows: 100px;
+           height: 100px;
+           /* border: 1px solid red; */
+           position: relative;
+           top: -300px;
+           left: 200px;
+       }
+       #zt1{
+            width: 1500px;
+            height: 80px;
+            margin: 30px auto;
+            background-color: aliceblue;
+            
+       }
+       #zt1 span{
+           position: relative;
+           top: 50px;
+           font-size: 22px;
+           color: slategrey;
+       }
+       #zt1 a{
+           position: relative;
+           top: 18px;
+           left: 1400px;
+           font-size: 22px;
+           color: slategrey;
+       }
+       #zt1 a:hover{
+           text-decoration: none;
+           /* background-color: chocolate; */
+           color: chocolate;
+       }
+       #fdt1{
+           width: 1200px;
+           height: 620px;
+           margin: 0 auto;
+           background-color: white;
+           position: relative;
+           
+       }
+       #fdtn1{
+            height: 620px;
+            width: 300px;
+            background-color: brown;
+            transition: all 1s; 
+       }
+       #fdt1 p{
+           color: orange;
+           /* font: 20px; */
+       }
+
+       #fdtn1 img{
+            height: 620px;
+            width: 300px;
+            transition: all 0.7s;
+        } 
+       .mmj:hover{
+           transform: scale(3px);
+           transform: all 1s;
+            transform: scale(1.05,1.05);
+           box-shadow: 0 0 2px;
+           transition: all 1s; 
+       } 
+       #fdtn2{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 0;
+           left: 300px;
+           /* margin: o auto; */
+           
+       }
+       #fdtn3{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 0px;
+           left: 530px;   
+       }
+       #fdtn4{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 0px;
+           left: 760px;   
+       }
+       #fdtn5{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 0px;
+           left: 990px; 
+           text-orientation: ellipsis; 
+       }
+       #fdtn6{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 320px;
+           left: 300px;
+            
+       }
+       #fdtn7{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 320px;
+           left: 530px;   
+       }
+       #fdtn8{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 320px;
+           left: 760px;   
+       }
+       #fdtn9{
+           height: 300px;
+           width: 220px;
+           background-color: white;
+           position: absolute;
+           top: 320px;
+           left: 990px;   
+       }
+       .tz1{
+           position: relative;
+           left: 45px;
+           /* display: flex; */
+           /* flex-direction: row; */
+           /* justify-content: flex-end; */
+
+           /* margin: 0 auto; */
+           /* display: flex;
+           flex-direction: row;
+           justify-content: flex-end;
+           align-content: center; */
+       }
+       .tz2{
+           position: absolute;
+           left: 10px;
+            font-size: 10px;
+            color: gray;
+            margin: 0 auto;
+       }
+       .tz3{
+           position: absolute;
+           left: 70px;
+           top: 260px;     
+       }
+       .tz4{
+           position: absolute;
+           left: 120px;
+           top: 260px;     
+       }
+       .box2{
+           /* margin: 0 auto; */
+           /* display: block; */
+           /* float: left; */
+           /* position: relative; */
+           top:30px;
+           left: 1150px;
+           line-height: -200px;
+           
+       }
+       #cc1{
+           position: relative;
+           top: 230px;
+           }
+         
+       #cc1:hover{
+           color: orange;
+           /* font-size: 30px; */
+           
+       }
+       .clear{
+           clear: both;
+       }
+       
+     
+        </style>
+    </head>
+    <body>
+        <div id="nav">
+            <div>
+                <span>
+                    <a href="">小米商城&emsp;&emsp;</a>
+                    <a href="">MIUI&emsp;&emsp;</a>
+                    <a href="">IOT&emsp;&emsp;</a>
+                    <a href="">云服务&emsp;&emsp;</a>
+                    <a href="">金融&emsp;&emsp;</a>
+                    <a href="">有品&emsp;&emsp;</a>
+                    <a href="">小爱开放平台&emsp;&emsp;</a>
+                    <a href="">企业团购&emsp;&emsp;</a>
+                    <a href="">资质证照&emsp;&emsp;</a>
+                    <a href="">协议规则&emsp;&emsp;</a>
+                    <a href="">下载app&emsp;&emsp;</a>
+                    <a href="">Select Region&emsp;&emsp;</a>
+                </span>
+                <span id="er">
+                    <a href="">登录</a>
+                    <a href="">&emsp;&emsp;注册</a>
+                    <a href="">&emsp;&emsp;消息通知</a>
+                    <a href="">&emsp;&emsp;购物车（0）</a>
+                </span>
+            </div>
+        </div>
+        <div id="m2">
+            <div>
+                    <img src="xmlogo.jpg" alt="">
+                <span id="m3">
+                        
+                    <span class="box">小米手机&emsp;&emsp;</span>
+                    <span class="box">Redmi 红米&emsp;&emsp;</span>
+                    <span class="box">电视&emsp;&emsp;</span>
+                    <span class="box">笔记本&emsp;&emsp;</span>
+                    <span class="box">家电&emsp;&emsp;</span>
+                    <span class="box">路由器&emsp;&emsp;</span>
+                    <span class="box">智能硬件&emsp;&emsp;</span>
+                    <a class="box" href="">服务&emsp;&emsp;</a>
+                    <a class="box" href="">社区</a>
+                    <input class="z1" type="text" id="z2" placeholder="小米9  小米9 SE">
+                    <label for="z2"></label>
+                </span>
+                
+            </div>
+        </div>
+        <div id="s1">
+            <div id="s2">
+                <br>
+                <a class="glyphicon glyphicon-chevron-right" href="">手机 电话卡&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;>
+                    
+                </a>
+                <a id="ccc" class="glyphicon glyphicon-chevron-right" href="">电视 盒子</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">笔记本 平板</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">家电 插线板</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">出行 穿戴</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">智能 路由器</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">电源 配件</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">健康 儿童</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">耳机 印象</a>
+                <a class="glyphicon glyphicon-chevron-right" href="">生活 箱包</a>
+                
+                <br>
+            </div>
+            <div id="s3">
+                <div id="x1">
+                        <div id="x2">
+                                <a id="" class="glyphicon glyphicon-phone" href=""><div id="i1">选购手机</div></a>
+                        </div>
+                        <div id="x3">
+                            <a id="i2" class="glyphicon glyphicon-gift" href=""><div>企业团购</div></a>
+                            
+                        </div>
+                        <div id="x4">
+                            <a href="" class="glyphicon glyphicon-qrcode"><div>F码通道</div></a>
+                        </div>
+                        <div id="x5">
+                            <a href="" class="glyphicon glyphicon-modal-window"><div>米粉卡</div></a>
+                        </div>
+                        <div id="x6">
+                            <a href="" class="glyphicon glyphicon-leaf"><div>以旧换新</div></a>
+                        </div>
+                        <div id="x7">
+                            <a href="" class="glyphicon glyphicon-thumbs-up"><div>话费充值</div></a>
+                        </div>
+                </div>
+            </div>
+            <div id="s4">
+                <a href=""><img src="https://i1.mifile.cn/a4/xmad_15632717871994_bYqIF.jpg" alt=""></a>
+            </div>
+            <div id="s5">
+                <div id="s6">
+                    <a href=""><img src="https://i1.mifile.cn/a4/xmad_1562681080653_RzLSY.jpg" alt=""></a>
+                </div>
+                <div id="s7">
+                    <a href=""><img src="https://i1.mifile.cn/a4/xmad_15632000838536_bfVMh.jpg" alt=""></a>
+                </div>
+                <div id="s8">
+                    <a href=""><img src="https://i1.mifile.cn/a4/xmad_15604776623629_bRHhl.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div id="j1">
+                <a href="K20.html"><img id="j2" src="https://i1.mifile.cn/a4/xmad_15625126063988_sCIBm.jpg" alt=""><b>点我</b></a>
+        </div>
+        <div>
+            <div id="zt1">
+                <span>手机</span>
+                <a class="glyphicon glyphicon-arrow-right" href="">查看全部</a>
+                
+            </div>
+            <div id="fdt1">
+                <div id="fdtn1" class="mmj"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15632722867059_OGySX.jpg" alt=""></a></div>
+                <div id="fdtn2" class="mmj"><a href=""><img src="https://i1.mifile.cn/a1/pms_1550642182.7527088!220x220.jpg" alt=""></a>
+                    <span class="tz1">小米9 6GB+128GB</span>
+                    <span class="tz2">晓龙855，索尼4800万超广角微距三摄</span>
+                    <p class="tz3">2799元</p>
+                    <s class="tz4">2999元</s>   
+                </div>
+                <div id="fdtn3" class="mmj">
+                    <a href=""><img src="https://i1.mifile.cn/a1/pms_1540429613.4617799!220x220.jpg" alt=""></a>
+                    <span class="tz1">小米MIX 6GB+128GB</span>
+                    <span class="tz2">磁动力滑盖全面屏/四曲面陶瓷机身</span>
+                    <p class="tz3">3299元</p>
+                    <!-- <s class="tz4">2999元</s> -->
+                </div>
+                <div id="fdtn4" class="mmj">
+                    <a href=""><img src="https://i1.mifile.cn/a1/pms_1552647865.67536173!220x220.jpg" alt=""></a>
+                    <span class="tz1">Redmi Note 7 Pro</span>
+                    <span class="tz2">6GB+128GB大存储，索尼4800万拍照</span>
+                    <p class="tz3">3299元</p>
+                    <!-- <s class="tz4">2999元</s> -->
+                </div>
+                <div id="fdtn5" class="mmj">
+                    <a href=""><img src="https://i1.mifile.cn/a1/pms_1554694214.08887531!220x220.png" alt=""></a>
+                    <span class="tz1">小米Play 4GB+64GB</span>
+                    <span class="tz2">八核高性能处理器，后置1200万 AI 双摄</span>
+                    <p class="tz3">749元</p>
+                    <s class="tz4">999元</s>
+                </div>
+                <div id="fdtn6" class="mmj">
+                    <a href=""><img src="https://i1.mifile.cn/a1/pms_1538019009.57772743!220x220.png" alt=""></a>
+                    <span class="tz1">小米8 屏幕指纹版 6GB+128GB</span>
+                    <span class="tz2">全球首款压感屏幕指纹版 晓龙845处理器</span>
+                    <p class="tz3">1799元</p>
+                    <s class="tz4">2999元</s>
+                </div>
+            <div id="fdtn7" class="mmj">
+                <a href=""><img src="https://i1.mifile.cn/a1/pms_1537324004.08544830!220x220.jpg" alt=""></a>
+                <span class="tz1">小米8青春版 6GB+64GB</span>
+                <span class="tz2">潮流镜面渐变色，2400万自拍旗舰</span>
+                <p class="tz3">1499元</p>
+                <s class="tz4">1699元</s>
+                </div>
+                <div id="fdtn8" class="mmj">
+                    <a href=""><img src="https://i1.mifile.cn/a1/pms_1547020972.223707!220x220.jpg" alt=""></a>
+                    <span class="tz1">Redmi Note 6GB+64GB</span>
+                    <span class="tz2">4800万拍照，4000mAh大电量</span>
+                    <p class="tz3">1399元</p>
+                    
+                    </div>
+                    <div id="fdtn9" class="mmj">
+                        <a href=""><img src="https://i1.mifile.cn/a1/pms_1558857780.47412427!220x220.jpg" alt=""></a>
+                        <span class="tz1">Redmi K20 Pro 6GB+128GB</span>
+                        <span class="tz2">晓龙855旗舰处理器，索尼4800万超</span>
+                        <p class="tz3">1499元</p>
+                        <s class="tz4">1699元</s>
+                        </div>
+        </div>
+        <div id="s9"><a href=""><img src="https://i1.mifile.cn/a4/xmad_15623199613764_JWGzK.jpg" alt=""></a></div>
+        <div id="zt1">
+            <span>手机</span>
+            <span id="cc1" class="box2">热门&emsp;&emsp;</span>
+            <span id="cc1" class="box2">电视影音&emsp;&emsp;</span>
+            <span id="cc1" class="box2" id="cc3">电脑&emsp;&emsp;</span>
+            <span id="cc1" class="box2">家具</span>
+            <div class="clear" id="cc1"></div>
+            
+        </div>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+    </body>
+
+</html>
